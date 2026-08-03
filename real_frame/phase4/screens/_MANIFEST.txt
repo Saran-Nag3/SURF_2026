@@ -1,0 +1,79 @@
+Real phone screenshots extracted from: svg.zip
+Total kept: 62 across 7 companies
+
+Booking/  (9)
+   Booking_001_Checkout__Payment__Credit_card.svg
+   Booking_002_MainChoose_data.svg
+   Booking_003_Main.svg
+   Booking_004_Main.svg
+   Booking_005_Search__Feed.svg
+   Booking_006_Search.svg
+   Booking_007_Notification.svg
+   Booking_008_Notification.svg
+   Booking_009_Profile.svg
+
+Express/  (8)
+   Express_003_Log_in.svg
+   Express_004_Homepage_2.svg
+   Express_005_Composing_search_2.svg
+   Express_006_Composing_Search.svg
+   Express_007_Booking_info_Map_showing.svg
+   Express_008_Service_selection.svg
+   Express_009_Order_complete.svg
+   Express_010_Homepage.svg
+
+LinkedIn/  (26)
+   LinkedIn_002_Light_theme_01.svg
+   LinkedIn_002_Light_theme_02.svg
+   LinkedIn_002_Light_theme_03.svg
+   LinkedIn_002_Light_theme_04.svg
+   LinkedIn_002_Light_theme_05.svg
+   LinkedIn_002_Light_theme_06.svg
+   LinkedIn_002_Light_theme_07.svg
+   LinkedIn_002_Light_theme_08.svg
+   LinkedIn_002_Light_theme_09.svg
+   LinkedIn_002_Light_theme_10.svg
+   LinkedIn_002_Light_theme_11.svg
+   LinkedIn_002_Light_theme_12.svg
+   LinkedIn_002_Light_theme_13.svg
+   LinkedIn_003_Dark_theme_01.svg
+   LinkedIn_003_Dark_theme_02.svg
+   LinkedIn_003_Dark_theme_03.svg
+   LinkedIn_003_Dark_theme_04.svg
+   LinkedIn_003_Dark_theme_05.svg
+   LinkedIn_003_Dark_theme_06.svg
+   LinkedIn_003_Dark_theme_07.svg
+   LinkedIn_003_Dark_theme_08.svg
+   LinkedIn_003_Dark_theme_09.svg
+   LinkedIn_003_Dark_theme_10.svg
+   LinkedIn_003_Dark_theme_11.svg
+   LinkedIn_003_Dark_theme_12.svg
+   LinkedIn_003_Dark_theme_13.svg
+
+PayPal/  (6)
+   PayPal_001_Payments.svg
+   PayPal_002_Bills.svg
+   PayPal_003_Request.svg
+   PayPal_004_Home.svg
+   PayPal_005_Wallet.svg
+   PayPal_006_Activity.svg
+
+nike/  (2)
+   nike_002_Home.svg
+   nike_003_Product_page.svg
+
+salesforce.com/  (9)
+   salesforce.com_009_Menu_Screen.svg
+   salesforce.com_010_Home_Screen.svg
+   salesforce.com_011_Splash_Screen.svg
+   salesforce.com_012_Opportunities_Home.svg
+   salesforce.com_013_Opportunitiy_Item_home.svg
+   salesforce.com_014_Opportunitiy_Detail.svg
+   salesforce.com_015_New_Opportunity.svg
+   salesforce.com_016_Leads_Screen.svg
+   salesforce.com_017_TasksScreen.svg
+
+starbucks/  (2)
+   starbucks_001_main.svg
+   starbucks_002_siren_order.svg
+

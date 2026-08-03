@@ -1,0 +1,149 @@
+==============================================================================
+FIGMA UI-KIT SCRAPER & FILTER PIPELINE — HOW TO RUN
+==============================================================================
+
+This pipeline finds Figma Community UI kits for target companies, exports their 
+screens to SVG/PNG, and filters out true mobile screenshots using a vision AI model.
+
+DATA FLOW:
+companies.txt -> [Phase 0: Build List] -> [Stage 1: find_links.py] -> candidates.csv
+  -> [Stage 2: enrich_links.py] -> final23.csv -> [Stage 3: export_frames.py] 
+  -> Raw SVGs -> [Phase 4: filter.py] -> Real_Screens/
+
+------------------------------------------------------------------------------
+1. ONE-TIME SETUP & CREDENTIALS
+------------------------------------------------------------------------------
+
+FIGMA CREDENTIALS (Paid/Professional Account Required)
+Set these temporary environment variables in your active terminal window:
+
+* FIGMA_COOKIE: Log into figma.com -> DevTools -> Cookies -> Copy the value 
+  of "__Host-figma.authn". (Expires every few days)
+* FIGMA_TOKEN: Figma Settings -> Personal Access Tokens -> Generate one with 
+  "File content: read" scope.
+
+Command to set them:
+export FIGMA_COOKIE='paste-cookie-value'
+export FIGMA_TOKEN='figd_paste-token'
+
+PHASE 4 SYSTEM & PYTHON DEPENDENCIES
+Run these commands to install the required packages and libraries:
+
+pip install cairosvg pillow openai
+
+Note on Native Cairo Library (Required for cairosvg):
+- macOS: brew install cairo
+- Ubuntu: sudo apt-get install libcairo2
+- Windows/Conda: conda install -c conda-forge cairosvg
+
+VISION MODEL CONFIGURATION
+Configure your backend in the CONFIG block at the top of filter.py:
+- OpenRouter (Default): Set BACKEND = "openai_compatible", 
+  OAI_COMPAT_BASE_URL = "https://openrouter.ai/api/v1", and add your OAI_COMPAT_API_KEY.
+- Model Choices: "google/gemma-4-31b-it" (Add ":free" for the no-cost tier).
+
+------------------------------------------------------------------------------
+2. PIPELINE EXECUTION (STAGES 0 TO 4)
+------------------------------------------------------------------------------
+
+PHASE 0: BUILD THE COMPANY LIST
+* Scripts: python3 build_companies.py (Downloads S&P 500/Fortune 1000 + merges 
+  seed tech companies) -> python3 make_batch.py (Optional: creates random batch).
+* Outputs: companies.txt
+
+STAGE 1: FIND COMMUNITY LINKS
+* Script: python3 find_links.py (Searches Figma Community using your cookie).
+* Outputs: candidates.csv
+
+STAGE 2: ENRICH & DUPLICATE FILES
+* Script: python3 enrich_links.py (Duplicates files to your workspace for API access).
+* Note: Run 2-3 times to catch transient browser timeout skips. Do NOT delete 
+  enrich_cache.json; it preserves progress across retries.
+* Key Settings: Set TEAM_PROJECT_URL and TEAM_PROJECT_NAME inside the script to 
+  route duplicates to your paid team space (bypasses low rate-limit tiers). 
+  Set HEADLESS=False on initial runs to watch browser behavior.
+* Outputs: final23.csv
+
+STAGE 3: EXPORT FRAMES TO IMAGES
+* Script: python3 export_frames.py (Renders top-level frames to PNG @2x and SVGs).
+* Outputs: output/ folder (Company/File/*.svg) + export_manifest.csv. 
+  Keep export_cache.json for incremental re-runs.
+
+PHASE 4: ISOLATE MOBILE SCREENSHOTS
+Navigate to your phase 4 directory (cd real_frame/phase4) and run:
+
+Mode 1: Dry Run (Free & Instant)
+python filter.py YOUR_INPUT.zip --dry-run
+(Validates dimensions and estimates output without making AI API calls)
+
+Mode 2: Connection Check
+python filter.py --check
+(Sends a single test frame to confirm your vision AI API key works)
+
+Mode 3: Production Run
+python filter.py YOUR_INPUT.zip -o Real_Screens --zip --sheet
+(Processes assets through the vision model. Saves screens to Real_Screens/, 
+generates a .zip, and creates a visual grid thumbnail Real_Screens_preview.png)
+
+Phase 4 Optional Flags:
+--no-vision : Skips AI step entirely; accepts all assets passing basic geometry checks.
+--flat      : Dumps all isolated screens into a single root folder (no subfolders).
+
+------------------------------------------------------------------------------
+3. TYPICAL FULL RUN COMMAND SEQUENCE
+------------------------------------------------------------------------------
+
+# 0. Setup Environment
+export FIGMA_COOKIE='...'
+export FIGMA_TOKEN='figd_...'
+
+# 1. Generate Company Target Database
+python3 build_companies.py
+
+# 2. Extract Matching Community Links
+python3 find_links.py
+
+# 3. Duplicate and Account-Verify Assets (Repeat to clear gaps)
+python3 enrich_links.py
+python3 enrich_links.py
+
+# 4. Extract Vector/Raster Data
+python3 export_frames.py
+
+# 5. Filter for Real Phone Screenshots
+cd real_frame/phase4
+python filter.py --check
+python filter.py ../../output/ --dry-run
+python filter.py ../../output/ -o Real_Screens --zip --sheet
+
+------------------------------------------------------------------------------
+4. MASTER TROUBLESHOOTING REFERENCE
+------------------------------------------------------------------------------
+
+* "Timeout waiting for event page" (Stage 2)
+  -> Stale Figma cookie. Re-grab fresh __Host-figma.authn from active session.
+
+* Browser opens wrong account (HEADLESS=False)
+  -> Cookie belongs to different user. Log into your Pro account before copying.
+
+* "view-only; no editable copy"
+  -> Transient UI duplication failure. Re-run enrich_links.py to retry gaps.
+
+* 429 | type=low (Stage 2 or 3)
+  -> File is in a free/starter workspace. Verify DUPLICATE_INTO_TEAM=True and 
+     the project URL/Name parameters match your sidebar exactly.
+
+* 429 | type=high
+  -> Short burst rate limit. Code self-pauses and safely resumes automatically.
+
+* OSError: no library called "cairo" (Phase 4)
+  -> Missing native Cairo OS package. Run "brew install cairo" or "conda install cairosvg".
+
+* 401 / Unauthorized (Phase 4)
+  -> Missing or wrong vision API access key. Update OAI_COMPAT_API_KEY.
+
+* Model not found / 400 (Phase 4)
+  -> API model slug typo. Update OAI_COMPAT_MODEL to match a live OpenRouter slug.
+
+* Phase 4 run is instant but processes nothing
+  -> System pulling from past operation cache. Delete .vision_cache/ folder.
