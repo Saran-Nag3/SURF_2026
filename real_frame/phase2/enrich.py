@@ -31,7 +31,7 @@ So for reliable high-tier reads the copy should end up in a team project. Set
 DUPLICATE_INTO_TEAM=True and TEAM_PROJECT_URL. (If you confirm a real Drafts
 copy is already high-tier on your plan, you can leave it False — see TEST below.)
 
-Requires both env vars (SAME Pro account):
+Requires both env vars (SAME Pro account) before the run begins:
   export FIGMA_COOKIE='<your __Host-figma.authn cookie value>'
   export FIGMA_TOKEN='<your figd_... personal access token>'
 
