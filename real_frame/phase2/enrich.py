@@ -35,7 +35,7 @@ Requires both env vars (SAME Pro account):
   export FIGMA_COOKIE='<your __Host-figma.authn cookie value>'
   export FIGMA_TOKEN='<your figd_... personal access token>'
 
-FIRST RUNS: HEADLESS=False so you can watch the duplication actually happen.
+OPTIONAL FOR FIRST RUNS: HEADLESS=False so you can VERIFY the duplication actually happen.
 """
 
 import asyncio
@@ -53,9 +53,9 @@ from playwright.async_api import async_playwright
 # --------------------------------------------------------------------------
 # Config
 # --------------------------------------------------------------------------
-INPUT_FILE      = "candidates_real2.csv"
-OUTPUT_FILE     = "links_real2.csv"
-MIN_FRAMES      = 1      # was 3 — admits smaller UI files (more screens/companies)
+INPUT_FILE      = '''candidates.csv or output of phase1'''
+OUTPUT_FILE     = '''output.csv'''
+MIN_FRAMES      = 1      # Base floor requirements
 TOTAL_LINKS     = 0      # 0 = no ceiling
 MAX_PER_COMPANY = 20
 HEADLESS        = True  # keep False until duplication is confirmed working
@@ -64,10 +64,11 @@ HEADLESS        = True  # keep False until duplication is confirmed working
 # project's URL (open the project in Figma, copy the address bar), e.g.
 #   https://www.figma.com/files/project/123456789/Team-project
 DUPLICATE_INTO_TEAM = True
-TEAM_PROJECT_URL    = "https://www.figma.com/files/team/1641291207818654320/project/606630399"   # <-- REQUIRED when DUPLICATE_INTO_TEAM is True
+TEAM_PROJECT_URL = '''https://www.figma.com/files/project/123456789/Team-project''' # <-- REQUIRED when DUPLICATE_INTO_TEAM is True
 # The project's DISPLAY NAME exactly as it appears in Figma's sidebar (used to
 # pick it in the 'Move to project' dialog). Can't be derived from the URL above
 # when the URL ends in a numeric project id, so set it explicitly.
+
 TEAM_PROJECT_NAME   = "Team project"
 
 PRETRIM_PER_COMPANY = 10
@@ -75,8 +76,8 @@ PRETRIM_PER_COMPANY = 10
 USE_CACHE  = True
 CACHE_FILE = "enrich_cache.json"
 
-MIN_USER_COUNT = 20     # was 100 — biggest lever: admits many more companies
-MIN_LIKE_COUNT = 1      # was 5
+MIN_USER_COUNT = 20     # Base floor requirements
+MIN_LIKE_COUNT = 1      # Base floor requirements
 
 PER_CALL_DELAY     = 3
 FETCH_DEPTH        = 2
