@@ -36,21 +36,21 @@ from rapidfuzz import fuzz
 # --------------------------------------------------------------------------
 # Config — tweak these freely
 # --------------------------------------------------------------------------
-COMPANIES_FILE        = "companies2.txt"
-OUTPUT_FILE           = "candidates_real.csv"
-SAMPLE_SIZE           = 0     # random companies to use per run from the big
+COMPANIES_FILE = '''companies.txt'''
+OUTPUT_FILE = '''candidates_real.csv'''
+SAMPLE_SIZE = 0     # random companies to use per run from the big
                                 # list. 0 = use ALL (slow: ~6 search calls each,
                                 # so the full 1,278 list is thousands of calls).
-SEED_BIAS             = False    # always include the design-relevant seed
+SEED_BIAS = False    # always include the design-relevant seed
                                 # companies first, then random-fill the rest.
                                 # Hugely improves hit rate vs. pure random,
                                 # since most of the big list has no Figma files.
-SEED_FILE             = "companies_seed.txt"
+SEED_FILE = "companies_seed.txt"
 CANDIDATES_PER_COMPANY = 20      # how many to keep per company (productive
                                  # brands have more than 8 valid matches)
-MAX_NUM_RESULTS        = 50      # raw results requested per query (was 20) —
+MAX_NUM_RESULTS = 50      # raw results requested per query (was 20) —
                                  # more raw means more survive the filters
-REQUEST_PAUSE          = 0.5     # seconds between requests (politeness)
+REQUEST_PAUSE  = 0.5     # seconds between requests (politeness)
 
 # Query expansion — more distinct queries surface more unique files (deduped).
 QUERY_SUFFIXES = ["UI kit", "UI screens", "app", "mobile app", "ios app",
