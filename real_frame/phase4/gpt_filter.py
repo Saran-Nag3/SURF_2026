@@ -39,6 +39,7 @@ Notes
   phone-shaped, which includes the occasional design-system page that merely has
   phone-like proportions.
 - Tunable thresholds live in the CONFIG block below.
+- Make sure .env file contains the API Key information or directly fill them below
 """
 
 import argparse
@@ -95,22 +96,8 @@ BACKEND = "azure"   # switched from "openai_compatible" to use your Azure gpt-5.
 # repo. If you leave a value as "" it will fall back to the matching env var.)
 AZURE_OPENAI_ENDPOINT    = "https://<your-resource>.openai.azure.com"
 AZURE_OPENAI_API_KEY     = "<your-key>"
-AZURE_OPENAI_DEPLOYMENT  = "gpt-5.6-luna"      # your deployment name (as named in Azure)
-AZURE_OPENAI_API_VERSION = "2025-04-01-preview"  # recent version; GPT-5 models need a recent one
-
-# ----------------------------------------------------------------------------
-# OPENAI-COMPATIBLE  (used when BACKEND == "openai_compatible")
-# Configured below for OpenRouter; other servers in comments.
-# ----------------------------------------------------------------------------
-# OpenRouter (hosted, just needs a key):
-#   BASE_URL "https://openrouter.ai/api/v1", API_KEY your sk-or-... key,
-#   MODEL "google/gemma-4-31b-it"  (vision-capable; also ":free", or "google/gemma-4-26b-a4b-it")
-# Ollama (local):   BASE_URL "http://localhost:11434/v1", API_KEY "ollama", MODEL "gemma4:12b"
-# LM Studio:        BASE_URL "http://localhost:1234/v1",  API_KEY "lm-studio"
-# vLLM:             BASE_URL "http://localhost:8000/v1",  API_KEY "EMPTY"
-OAI_COMPAT_BASE_URL = "https://openrouter.ai/api/v1"
-OAI_COMPAT_API_KEY  = "<your-openrouter-key>"   # your sk-or-... key (or set OPENROUTER_API_KEY env var)
-OAI_COMPAT_MODEL    = "openai/gpt-5-mini"   # GPT vision via OpenRouter; verify exact slug at openrouter.ai/models?q=gpt
+AZURE_OPENAI_DEPLOYMENT  = "your model"      # your deployment name (as named in Azure)
+AZURE_OPENAI_API_VERSION = "your model version"  # recent version; GPT-5 models need a recent one
 
 # --- Model request settings ---------------------------------------------------
 # GPT-5 / reasoning models require max_completion_tokens (NOT max_tokens) and do
@@ -121,9 +108,6 @@ OAI_COMPAT_MODEL    = "openai/gpt-5-mini"   # GPT vision via OpenRouter; verify 
 # (Gemma / openai_compatible uses plain max_tokens + temperature instead; see _call.)
 VISION_MAX_TOKENS = 2000
 # Reasoning effort for GPT-5 family: "minimal" | "low" | "medium" | "high".
-# "minimal" keeps this fast and cheap for simple image classification.
-# If your deployment is a NON-reasoning model (e.g. gpt-4o) and you get an
-# "unsupported parameter: reasoning_effort" error, set this to "".
 REASONING_EFFORT  = "medium"
 
 SVG_NS   = "http://www.w3.org/2000/svg"
