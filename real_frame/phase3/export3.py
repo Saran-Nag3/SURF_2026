@@ -2,7 +2,7 @@
 """
 STAGE 3 — Export frames
 =======================
-Reads final20.csv and, for each file, renders every TOP-LEVEL frame (the
+Reads enriched links csv from phasse 2 and, for each file, renders every TOP-LEVEL frame (the
 screens) to both PNG @2x and SVG, saved under output/<company>/<file>/.
 
 IMPORTANT: the file_key column must point at COPIES IN YOUR OWN WORKSPACE, which
@@ -10,9 +10,6 @@ Stage 2 now produces by duplicating each community file. If you feed this stage
 keys for files you don't own (e.g. raw community files), the image endpoint will
 return 'low'-tier 429s and lock you out for days. This stage now detects that
 and skips the file instead of grinding through useless retries.
-
-Only needs the REST token (no browser):
-  export FIGMA_TOKEN='<your figd_... personal access token>'
 
 Layout produced:
   output/<company>/<file>/001_Home.png, 001_Home.svg, ...
@@ -29,6 +26,9 @@ version fetched ?depth=2, which returns only pages + their top-level nodes;
 under that cap a top-level Section had NO children in the response, so files
 whose screens live inside a Section exported only their loose frames (e.g. the
 Cover) and missed the actual screen set.
+
+Only needs the REST token (no browser) before the run begins:
+  export FIGMA_TOKEN='<your figd_... personal access token>'
 """
 
 import csv
@@ -44,10 +44,10 @@ import urllib.request
 # --------------------------------------------------------------------------
 # Config
 # --------------------------------------------------------------------------
-INPUT_FILE   = "links_real.csv"
-OUTPUT_DIR   = "all_real_screens"
-MANIFEST     = "export_manifest.csv"
-PNG_SCALE    = 2          # PNG @2x
+INPUT_FILE = "enriched_links.csv" #Output of phase 2
+OUTPUT_DIR = "all_real_screens" #Exported screens organized by company
+MANIFEST = "export_manifest.csv"
+PNG_SCALE = 2          # PNG @2x
 IDS_PER_CALL = 5          # node ids per /v1/images request (server-side render)
 REQUEST_PAUSE = 0.5
 RATE_LIMIT_PAUSE = 60     # seconds on a *short* 429
